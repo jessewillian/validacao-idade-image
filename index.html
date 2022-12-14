@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação idade</title>
+    <meta name="author" content="Jesse Willian">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h1>Validação de idade</h1>
+    </header>
+
+    <section class="main-section">
+        <div>
+            <label for="ano_nasc">Ano de nascimento:</label>
+            <input type="number" name="ano_nasc" id="ano_nasc" max="4" required>
+        </div>
+        <p>Sexo:
+            <input type="radio" name="sexo_p" id="sexo_mas">
+            <label for="sexo_mas">Masculino</label>
+
+            <input type="radio" name="sexo_p" id="sexo_fem">
+            <label for="sexo_fem">Feminino</label>
+        </p>
+        <input type="button" value="Verificar" onclick="verificar()">
+
+        <div>
+            <p class="resultado-idade">Resultado</p>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; Jesse Willian | 2022</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

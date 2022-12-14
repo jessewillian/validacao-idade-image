@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: rgb(106, 214, 145);
+    font: normal 15pt Arial;
+}
+
+.main-header {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 2px #000;
+}
+
+.main-section {
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.main-footer {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 2px #000;
+}
+
+.resultado-idade {
+    text-align: center;
+}
